@@ -59,7 +59,7 @@ while((jogadas < 9) && (fimJogo == false)){
         continue;
     } 
 
-    if(tab[lin][col] !=  ''){
+    if(tab[lin][col] !=  ' '){
         console.log('A posição já está ocupada.');
         continue;
     }
