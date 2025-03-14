@@ -78,9 +78,15 @@ while((jogadas < 9) && (fimJogo == false)){
 
 }
 
-// (d)
+console.log('-------------------------------------')
+
+for(i = 0; i < 3; i++){
+    console.log(`[${tab[i][0]}] [${tab[i][1]}] [${tab[i][2]}]`);
+}
+
+
 if(vencedor == ''){
     console.log("Empate \n");
 }else{
-    console.log(`${vencedor} venceu`);
+    console.log(`O jogador ${vencedor} venceu!`);
 }
